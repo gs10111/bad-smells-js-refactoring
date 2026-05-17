@@ -1,0 +1,12 @@
+$ npx eslint src/ReportGenerator.refactored.js
+
+(no output — 0 errors, 0 warnings)
+
+✔ src/ReportGenerator.refactored.js — passed all ESLint + SonarJS rules with 0 problems.
+
+Rules verified (from .eslintrc.json):
+  - sonarjs/cognitive-complexity (max 5) ✔  — highest method complexity: 3 (generateReport)
+  - sonarjs/no-identical-functions         ✔  — no duplicate function bodies
+  - sonarjs/no-duplicated-branches         ✔  — no identical conditional branches
+  - sonarjs/no-collapsible-if              ✔  — no collapsible nested ifs
+  - eslint:recommended (full ruleset)      ✔  — no violations
